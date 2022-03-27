@@ -4,7 +4,7 @@ import time
 import schedule
 import requests
 
-bot = telebot.TeleBot("5285859700:AAG8GNkHJxHomKve3Mvgp8iITubVnVZnhmo")
+bot = telebot.TeleBot("TOKEN")
 
 def daily_report():
 	send_text = str(main.get_data())
